@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/prism.css">
+</head>
+<style>
+  *{
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+  .nav-bar{
+    height: 5vh;
+    width: 100%;
+    background-color: #24B29896;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+  }
+  .nav-text{
+    color: #232153;
+  }
+  
+  
+</style>
+
+<body>
+  <div class="nav-bar">
+    <div class="logo"><img src="./img/logo.png"></div>
+    <div class="nav-text"><h1>HTML CHEAT SHEET</h1></div>
+  </div>
+  
+   <h1>1. Html boilar plate.</h1>
+   <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+      &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+        &lt;title&gt;Title&lt;/title&gt;
+      &lt;/head&gt;
+    
+      &lt;body&gt;
+      
+      &lt;/body&gt;
+    &lt;/html&gt;</code></pre>
+   <h1>2. Html (ul)list element.</h1>
+   <pre class="language-html"><code>&lt;ul&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+   <h1>3. Html (ol)list element.</h1>
+   <pre class="language-html"><code>&lt;ol&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+   <h1>4. Html table element.</h1>
+   <pre class="language-html"><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+   <h1>5. Html select tag.</h1>
+   <pre class="language-html"><code>&lt;select&gt;&lt;/select&gt;</code></pre>
+   <h1>6. Html imgage element.</h1>
+   <pre class="language-html"><code>&lt;img src="" alt="" height="" width="" &gt;</code></pre>
+   <h1>7. Html style tag with link.</h1>
+   <pre class="language-html"><code>&lt;style&gt;&lt;/style&gt;
+&lt;!-- Or link --&gt;
+&lt;link rel="stylesheet" href="/"&gt;</code></pre>
+   <h1>8. Html script tag with link.</h1>
+   <pre class="language-html"><code>&lt;script&gt;&lt;/script&gt;
+&lt;!-- Or Link --&gt;
+&lt;script src="/"&gt;&lt;/script&gt;</code></pre>
+   <h1>9. Html div tag.</h1>
+   <pre class="language-html"><code>&lt;div&gt;&lt;/div&gt;
+&lt;!-- Or with class --&gt;
+&lt;div class=""&gt;&lt;/div&gt;</code></pre>
+   <h1>10. Html paragraph tag.</h1>
+   <pre class="language-html"><code>&lt;p&gt;&lt;/p&gt;
+&lt;!-- with class --&gt;
+&lt;p class=""&gt;&lt;/p&gt;</code></pre>
+   <h1>11. Html heading tag.</h1>
+   <pre class="language-html"><code>&lt;h1&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;/h3&gt;
+&lt;h4&gt;&lt;/h4&gt;
+&lt;h5&gt;&lt;/h5&gt;
+&lt;h6&gt;&lt;/h6&gt;
+&lt;!-- with class --&gt;
+&lt;h1 class=""&gt;&lt;/h1&gt;
+&lt;h2 class=""&gt;&lt;/h2&gt;
+&lt;h3 class=""&gt;&lt;/h3&gt;
+&lt;h4 class=""&gt;&lt;/h4&gt;
+&lt;h5 class=""&gt;&lt;/h5&gt;
+&lt;h6 class=""&gt;&lt;/h6&gt;</code></pre>
+   <h1>12. Html new line & horizontal line tag.</h1>
+   <pre class="language-html"><code>&lt;!-- new line tag --&gt;
+&lt;br&gt;
+&lt;!-- horizontal line tag --&gt;
+&lt;hr&gt;</code></pre>
+   <h1>13. Html video & audio tag.</h1>
+   <pre class="language-html"><code>&lt;video src=""&gt;&lt;/video&gt;
+&lt;!-- with autoplay --&gt;
+&lt;video src="" height="" width="" preload="none" autoplay="autoplay"&gt;&lt;/video&gt;
+&lt;!-- audio tag --&gt;
+&lt;audio src=""&gt;&lt;/audio&gt;</code></pre>
+   <h1>14. Html section tag.</h1>
+   <pre class="language-html"><code>&lt;sction&gt;&lt;/sction&gt;
+&lt;!-- with class --&gt;
+&lt;section class=""&gt;&lt;/scrion&gt;</code></pre>
+   <h1>15. Html href & style attributes.</h1>
+   <pre class="language-html"><code>&lt;!-- href attribute or hyperlink --&gt;
+&lt;a href="#"&gt;&lt;/a&gt;
+&lt;!-- style attribute --&gt;
+&lt;p style=""&gt;&lt;/p&gt;</code></pre>
+   <h1>16. Html preserves both spaces and line breaks or pre tag.</h1>
+   <pre class="language-html"><code>&lt;pre&gt;&lt;/pre&gt;
+&lt;!-- code tag --&gt;
+&lt;code&gt;&lt;/code&gt;</code></pre>
+   <h1>17. Html bold , italic & emphasazied tags</h1>
+   <pre class="language-html"><code>&lt;!-- Bold tag --&gt;
+&lt;b&gt;&lt;/b&gt;
+&lt;!-- Italic tag --&gt;
+&lt;i&gt;&lt;/i&gt;
+&lt;!-- Emphasized tag --&gt;
+&lt;em&gt;&lt;/em&gt;</code></pre>
+   <h1>18. Html subscript & superscript.</h1>
+   <pre class="language-html"><code>&lt;sub&gt;&lt;/sub&gt;
+&lt;!-- superscript --&gt;
+&lt;sup&gt;&lt;/sup&gt;</code></pre>
+   <h1>19. Html smaller text & important text tags.</h1>
+   <pre class="language-html"><code>&lt;!-- smaller text --&gt;
+&lt;small&gt;&lt;/small&gt;
+&lt;!-- important text tag --&gt;
+&lt;strong&gt;&lt;/strong&gt;</code></pre>
+   <h1>20. Html insert , mark/highlight , delete tags.</h1>
+   <pre class="language-html"><code>&lt;!-- inserted tag --&gt;
+&lt;ins&gt;&lt;/ins&gt;
+&lt;!-- Delete tag --&gt;
+&lt;del&gt;&lt;/del&gt;
+&lt;!-- Mark/Highlight tag--&gt;
+&lt;mark&gt;&lt;/mark&gt;</code></pre>
+   <h1>21. Html article tag.</h1>
+   <pre class="language-html"><code>&lt;article&gt;&lt;/article&gt;</code></pre>
+   <h1>22. Html address tag</h1>
+   <pre class="language-html"><code>&lt;address&gt;&lt;/address&gt;</code></pre>
+   <h1>23. Html addriviation or acronym tag</h1>
+   <pre class="language-html"><code>The &lt;abbr title="World Health Organization"&gt;WHO&lt;/abbr&gt; was founded in 1948.</code></pre>
+   <h1>24. Html title of a work tag.</h1>
+   <pre class="language-html"><code>&lt;p&gt;&lt;cite&gt;The Scream&lt;/cite&gt; by Edward Munch. Painted in 1893.&lt;/p&gt;</code></pre>
+   <h1>25. Html short line question tag</h1>
+   <pre class="language-html"><code>&lt;p&gt;WWF's goal is to: &lt;q&gt;Build a future where people live in harmony with nature.&lt;/q&gt;&lt;/p&gt;</code></pre>
+   <h1>26. Html text direction tag</h1>
+   <pre class="language-html"><code>&lt;bdo dir="rtl"&gt;This text will go right-to-left.&lt;/bdo&gt;</code></pre>
+   <h1>27. Html a section that is qouted from another source or blockquote tag.</h1>
+   <pre class="language-html"><code>&lt;blockquote cite="http://www.worldwildlife.org/who/index.html"&gt;
+  For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+&lt;/blockquote&gt;</code></pre>
+   <h1>28. Html base tag.</h1>
+   <pre class="language-html"><code>&lt;base href="https://www.w3schools.com/" target="_blank"&gt;</code></pre>
+   <h1>29. Html search tag.</h1>
+   <pre class="language-html"><code>&lt;search&gt;
+  &lt;form&gt;
+    &lt;input name="fsrch" id="fsrch" placeholder="Search W3Schools"&gt;
+  &lt;/form&gt;
+&lt;/search&gt;</code></pre>
+   <h1>30. Html hgroup tag.</h1>
+   <pre class="language-html"><code>&lt;hgroup&gt;
+  &lt;h2&gt;Norway&lt;/h2&gt;
+  &lt;p&gt;The land with the midnight sun.&lt;/p&gt;
+&lt;/hgroup&gt;</code></pre>
+   <h1>31. HTML navigation tag.</h1>
+   <pre class="language-html"><code>&lt;nav&gt;&lt;/nav&gt;</code></pre>
+   <h1>32. Html header , main & footer tags.</h1>
+   <pre class="language-html"><code>&lt;!-- Header tag --&gt;
+&lt;header&gt;&lt;/header&gt;
+&lt;!-- Main tag --&gt;
+&lt;main&gt;&lt;/main&gt;
+&lt;!-- Footer tag --&gt;
+&lt;footer&gt;&lt;/footer&gt;</code></pre>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+</body>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/prism.js"></script>
+
+</html>
